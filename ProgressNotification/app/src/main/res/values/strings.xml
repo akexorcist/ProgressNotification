@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Progress Notification</string>
+    <string name="your_status_is_active">Your status is active</string>
+    <string name="your_status_is_inactive">Your status is inactive</string>
+    <string name="next">Next</string>
+    <string name="user_id">User ID</string>
+    <string name="apply_premium_account">Apply Premium Account</string>
+    <string name="you_are_premium_account">You are premium account. Hope you enjoy.</string>
+    <string name="your_request_have_been_denied">Your request have been denied, please try again.</string>
+    <string name="notification_your_request_has_been_denied">Your request has been denied</string>
+    <string name="notification_click_here_to_try_again_in_the_app">Click here to try again in the app</string>
+    <string name="notification_request_failed">Request failed</string>
+    <string name="notification_your_request_is_done">Your request is done</string>
+    <string name="notification_click_here_to_resume_the_app">Click here to resume the app</string>
+    <string name="notification_registered">Registered</string>
+    <string name="notification_please_wait_for_awhile">Please wait for awhile</string>
+    <string name="notification_submitting_your_request">Submitting your request</string>
+    <string name="user_id_is_invalid">User ID is invalid</string>
+</resources>

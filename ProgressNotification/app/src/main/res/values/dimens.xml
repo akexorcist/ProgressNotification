@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="default_margin_small">4dp</dimen>
+    <dimen name="default_margin">8dp</dimen>
+    <dimen name="default_margin_large">16dp</dimen>
+    <dimen name="text_view_user_id_margin_bottom">40dp</dimen>
+    <dimen name="button_apply_premium_account_margin_top">40dp</dimen>
+</resources>
