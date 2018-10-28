@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.akexorcist.progressnotification.com.akexorcist.progressnotification.ui.ResultActivity">
+    tools:context=".ui.ResultActivity2">
 
     <TextView
-        android:id="@+id/tv_user_id"
+        android:id="@+id/tvUserId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/text_view_user_id_margin_bottom"
         android:layout_marginTop="@dimen/default_margin_large"
+        android:layout_marginBottom="@dimen/text_view_user_id_margin_bottom"
         android:textSize="@dimen/text_size_large"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,13 +20,13 @@
         tools:text="User ID" />
 
     <TextView
-        android:id="@+id/tv_account_status"
+        android:id="@+id/tvAccountStatus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/default_margin_small"
         android:textSize="@dimen/text_size"
-        app:layout_constraintEnd_toEndOf="@+id/tv_user_id"
-        app:layout_constraintStart_toStartOf="@+id/tv_user_id"
-        app:layout_constraintTop_toBottomOf="@+id/tv_user_id"
+        app:layout_constraintEnd_toEndOf="@+id/tvUserId"
+        app:layout_constraintStart_toStartOf="@+id/tvUserId"
+        app:layout_constraintTop_toBottomOf="@+id/tvUserId"
         tools:text="TextView" />
 </android.support.constraint.ConstraintLayout>

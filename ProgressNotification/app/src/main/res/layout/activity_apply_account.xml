@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.akexorcist.progressnotification.com.akexorcist.progressnotification.ui.ApplyAccountActivity"
+    tools:context=".ui.ApplyAccountActivity"
     tools:ignore="UselessLeaf">
 
     <EditText
-        android:id="@+id/et_user_id"
+        android:id="@+id/etUserId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/default_margin_large"
@@ -20,13 +20,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_start_service"
+        android:id="@+id/btnStartService"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/button_apply_premium_account_margin_top"
         android:text="@string/apply_premium_account"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_user_id" />
+        app:layout_constraintTop_toBottomOf="@+id/etUserId" />
 
 </android.support.constraint.ConstraintLayout>
