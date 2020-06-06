@@ -1,7 +1,7 @@
 package com.akexorcist.progressnotification.ui
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import com.akexorcist.progressnotification.R
 import com.akexorcist.progressnotification.data.ApplyPremiumAccountResult
 import com.akexorcist.progressnotification.service.ApplyPremiumAccountService
